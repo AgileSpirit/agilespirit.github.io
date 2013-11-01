@@ -1,0 +1,103 @@
+/* ------- */
+/* General */
+/* ------- */
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+#header {
+  padding: 20px 0;
+  background-color: #2daebf;
+  color: #FFF;
+}
+#header h4 {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+#header a {
+  color: #FFF;
+  text-decoration: none;
+}
+#main {
+  padding: 20px 0;
+}
+
+#footer {
+  border-top: 1px solid #EEE;
+  padding: 20px 0;
+}
+#footer .wrapper {
+  padding: 20px 0;
+}
+#footer .wrapper a {
+  color: #555;
+  font-size: 40px;
+  text-decoration: none;
+  transition: color 0.25s ease-in;
+  -webkit-transition: color 0.25s ease-in;
+}
+#footer .wrapper a:hover {
+  color: #307EA9;
+}
+#footer .wrapper .block {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  line-height: 20px;
+  width: 150px;
+  padding: 0 10px;
+}
+
+#footer .wrapper .block div {
+  margin-top: 20px;
+  font-size: 0.30em;
+}
+
+/* --------- */
+/* Home page */
+/* --------- */
+
+#home .posts li {
+  list-style-type: none;
+  padding: 7px 5px;
+  font-size: 1.2em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#home .posts li a {
+  color: #333;
+  text-decoration: none;
+}
+#home .posts li span {
+  color: #999;
+  display: inline-block;
+  font-size: 0.8em;
+  padding-top: 3px;
+  padding-right: 10px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+/* ---------- */
+/* Responsive */
+/* ---------- */
+@media (min-width: 481px) {
+  /* smartphone */
+}
+
+@media (max-width: 480px) {
+  /* smartphone */
+  #github-ribbon {
+    display: none;
+  }
+  #footer .wrapper .block {
+    width: 100px;
+  }
+  #footer .wrapper .block div {
+    display: none;
+  }
+
+}
