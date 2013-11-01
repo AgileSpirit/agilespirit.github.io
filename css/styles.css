@@ -84,6 +84,18 @@ body {
   text-transform: uppercase;
 }
 
+/* --------- */
+/* Post page */
+/* --------- */
+
+.post {
+  padding: 0 20px;
+}
+
+.post .content {
+  padding: 15px 0;
+}
+
 /* ---------- */
 /* Responsive */
 /* ---------- */

@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e20a8d84-65b1-48fc-9cda-584ec45609aa" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
     </list>
     <ignored path="agilespirit.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383261749168" ignored="false" />
     <file path="/default.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383270746834" ignored="false" />
-    <file path="/styles.css" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383273102893" ignored="false" />
+    <file path="/styles.css" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383313001668" ignored="false" />
     <file path="/2013-10-31-lorem-ipsum.markdown" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383263807376" ignored="false" />
     <file path="/header.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383271504052" ignored="false" />
-    <file path="/footer.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383270380216" ignored="false" />
+    <file path="/footer.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383311870558" ignored="false" />
     <file path="/index.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383271667303" ignored="false" />
     <file path="/2013-06-30-A-post-with-a-very-very-long-name.markdown" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383273288001" ignored="false" />
+    <file path="/post.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383313068244" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +82,7 @@
           <file leaf-file-name="post.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/_layouts/post.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="-3.125">
+                <state line="12" column="7" selection-start="179" selection-end="179" vertical-scroll-proportion="-7.5">
                   <folding />
                 </state>
               </provider>
@@ -97,8 +100,10 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/_site/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="0" selection-start="1394" selection-end="1394" vertical-scroll-proportion="6.5416665">
-                  <folding />
+                <state line="60" column="0" selection-start="2352" selection-end="2352" vertical-scroll-proportion="6.5416665">
+                  <folding>
+                    <marker date="1383313147000" expanded="true" signature="2072:2646" placeholder="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -126,7 +131,7 @@
           <file leaf-file-name="footer.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/_includes/footer.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="24" selection-start="83" selection-end="83" vertical-scroll-proportion="-1.25">
+                <state line="37" column="8" selection-start="1252" selection-end="1252" vertical-scroll-proportion="-9.333333">
                   <folding />
                 </state>
               </provider>
@@ -135,7 +140,7 @@
           <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="16" selection-start="248" selection-end="248" vertical-scroll-proportion="0.45356372">
+                <state line="95" column="13" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.51403886">
                   <folding />
                 </state>
               </provider>
@@ -197,10 +202,11 @@
         <option value="$PROJECT_DIR$/_includes/posts.html" />
         <option value="$PROJECT_DIR$/_layouts/index.html" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
-        <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_posts/2013-06-30-A-post-with-a-very-very-long-name.markdown" />
+        <option value="$PROJECT_DIR$/_includes/footer.html" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
@@ -586,17 +592,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1394" selection-end="1394" vertical-scroll-proportion="6.5416665">
-          <folding />
+        <state line="60" column="0" selection-start="2352" selection-end="2352" vertical-scroll-proportion="6.5416665">
+          <folding>
+            <marker date="1383313147000" expanded="true" signature="2072:2646" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -606,13 +607,6 @@
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="83" selection-end="83" vertical-scroll-proportion="-1.25">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -637,9 +631,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="8" selection-start="1252" selection-end="1252" vertical-scroll-proportion="-9.333333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="7" selection-start="179" selection-end="179" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="16" selection-start="248" selection-end="248" vertical-scroll-proportion="0.45356372">
+        <state line="95" column="13" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.51403886">
           <folding />
         </state>
       </provider>
