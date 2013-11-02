@@ -8,7 +8,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383261749168" ignored="false" />
     <file path="/default.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383395699446" ignored="false" />
-    <file path="/styles.css" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383402076898" ignored="false" />
+    <file path="/styles.css" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383403160543" ignored="false" />
     <file path="/2013-10-31-lorem-ipsum.markdown" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383394031807" ignored="false" />
     <file path="/header.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383401965839" ignored="false" />
     <file path="/footer.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383311870558" ignored="false" />
@@ -97,7 +97,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="674" selection-end="674" vertical-scroll-proportion="0.47202796">
+            <state line="173" column="18" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.5541958">
               <folding />
             </state>
           </provider>
@@ -618,7 +618,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="674" selection-end="674" vertical-scroll-proportion="0.47202796">
+        <state line="173" column="18" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.5541958">
           <folding />
         </state>
       </provider>
