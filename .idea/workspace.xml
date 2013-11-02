@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e20a8d84-65b1-48fc-9cda-584ec45609aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/navigation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_plugins/rssgenerator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-10-30-welcome-to-jekyll.markdown" afterPath="$PROJECT_DIR$/_posts/2013-10-30-welcome-to-jekyll.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-10-31-lorem-ipsum.markdown" afterPath="$PROJECT_DIR$/_posts/2013-10-31-lorem-ipsum.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="agilespirit.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,6 +22,9 @@
     <file path="/navigation.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383401887598" ignored="false" />
     <file path="/about.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383401304053" ignored="false" />
     <file path="/contact.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383402008220" ignored="false" />
+    <file path="$PROJECT_DIR$/_site/about.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383402496646" ignored="false" />
+    <file path="$PROJECT_DIR$/_site/index.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383402496646" ignored="false" />
+    <file path="$PROJECT_DIR$/_site/rss.xml" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383402496646" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,19 +94,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="984" selection-end="984" vertical-scroll-proportion="-16.73077">
+            <state line="41" column="0" selection-start="674" selection-end="674" vertical-scroll-proportion="0.47202796">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="37" selection-start="1806" selection-end="1806" vertical-scroll-proportion="0.8930481">
+            <state line="38" column="37" selection-start="1806" selection-end="1806" vertical-scroll-proportion="-20.875">
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -190,8 +182,8 @@
         <option value="$PROJECT_DIR$/_includes/navigation.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
   </component>
@@ -615,19 +607,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="984" selection-end="984" vertical-scroll-proportion="-16.73077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="37" selection-start="1806" selection-end="1806" vertical-scroll-proportion="0.8930481">
+        <state line="38" column="37" selection-start="1806" selection-end="1806" vertical-scroll-proportion="-20.875">
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="674" selection-end="674" vertical-scroll-proportion="0.47202796">
+          <folding />
         </state>
       </provider>
     </entry>
