@@ -5,17 +5,27 @@
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
+  background-color: #F6F6F6;
 }
 
+/* ------ */
+/* Header */
+/* ------ */
+
 #header {
-  padding: 20px 0;
   background-color: #2ba6cb;
   color: #FFF;
-}
-#header h1 {
   font-weight: 300;
 }
-#header h4 {
+#header h1.title {
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 300;
+  border-right: 1px solid #FFF;
+  padding-right: 18px;
+  margin-right: 10px;
+}
+#header .subtitle {
   font-size: 1.2em;
   font-weight: 300;
 }
@@ -23,12 +33,60 @@ body {
   color: #FFF;
   text-decoration: none;
 }
+#header-middle {
+  padding: 15px 0;
+}
+#header-bottom {
+  background-color: #1399bd;
+  padding: 20px 0;
+}
+
+/* ---------- */
+/* Navigation */
+/* ---------- */
+
+#navigation {
+  display: inline-block;
+}
+#navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navigation li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#navigation a {
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px 11px;
+  text-align: center;
+  text-decoration: none;
+}
+#navigation a:hover {
+  background-color: #006582;
+}
+
+/* ---- */
+/* Main */
+/* ---- */
+
+#main-wrapper {
+  background-color: #FFF;
+}
 #main {
   padding: 20px 0;
 }
 
+/* ------ */
+/* Footer */
+/* ------ */
+
 #footer {
-  border-top: 1px solid #EEE;
+  border-top: 1px solid #DDD;
   padding: 20px 0;
 }
 #footer .wrapper {
@@ -93,7 +151,7 @@ body {
 }
 
 .post .content {
-  border-bottom: 1px dotted #999;
+  border-bottom: 1px solid #CCC;
   padding: 15px 0;
 }
 
@@ -111,6 +169,9 @@ body {
 @media (max-width: 480px) {
   /* smartphone */
   #github-ribbon {
+    display: none;
+  }
+  #navigation {
     display: none;
   }
   #footer .wrapper .block {

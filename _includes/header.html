@@ -8,7 +8,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-  <title>{{ page.title }}</title>
+  <title>{{site.name}} - {{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--[if lt IE 9]>
   <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -22,12 +22,22 @@
 </head>
 <body>
 
-<a href="https://github.com/AgileSpirit" id="github-ribbon"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png" alt="Fork me on GitHub"></a>
+<!--<a href="https://github.com/AgileSpirit" id="github-ribbon"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png" alt="Fork me on GitHub"></a>-->
+<a href="https://github.com/AgileSpirit/agilespirit.github.io" id="github-ribbon"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" alt="Fork me on GitHub"></a>
 
 <header id="header" role="banner" class="txtcenter">
-  <div class="wrapper w700p center">
-    <h1><a href="/">{{ site.name }}</a></h1>
-    <h4>Yet another Jekyll blog</h4>
+  <div id="header-top"></div>
+
+  <div id="header-middle">
+    <div class="wrapper w700p center ">
+      <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+      <span class="subtitle">Yet another Jekyll blog</span>
+    </div>
   </div>
-  <div id="header-bottom"></div>
+
+  <div id="header-bottom">
+    <div class="wrapper w700p center ">
+      {% include navigation.html %}
+    </div>
+  </div>
 </header>
