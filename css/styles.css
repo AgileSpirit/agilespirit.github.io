@@ -93,6 +93,11 @@ body {
 }
 
 .post .content {
+  border-bottom: 1px dotted #999;
+  padding: 15px 0;
+}
+
+.post .comments {
   padding: 15px 0;
 }
 

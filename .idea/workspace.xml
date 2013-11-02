@@ -10,13 +10,13 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383261749168" ignored="false" />
     <file path="/default.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383270746834" ignored="false" />
-    <file path="/styles.css" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383313001668" ignored="false" />
+    <file path="/styles.css" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383387780295" ignored="false" />
     <file path="/2013-10-31-lorem-ipsum.markdown" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383263807376" ignored="false" />
     <file path="/header.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383271504052" ignored="false" />
     <file path="/footer.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383311870558" ignored="false" />
     <file path="/index.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383271667303" ignored="false" />
     <file path="/2013-06-30-A-post-with-a-very-very-long-name.markdown" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383273288001" ignored="false" />
-    <file path="/post.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383313068244" ignored="false" />
+    <file path="/post.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383385875132" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,7 @@
           <file leaf-file-name="post.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/_layouts/post.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="7" selection-start="179" selection-end="179" vertical-scroll-proportion="-7.5">
+                <state line="24" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="-15.0">
                   <folding />
                 </state>
               </provider>
@@ -100,9 +100,9 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/_site/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="60" column="0" selection-start="2352" selection-end="2352" vertical-scroll-proportion="6.5416665">
+                <state line="45" column="0" selection-start="1950" selection-end="1950" vertical-scroll-proportion="6.5416665">
                   <folding>
-                    <marker date="1383313147000" expanded="true" signature="2072:2646" placeholder="..." />
+                    <marker date="1383387838000" expanded="true" signature="2072:2646" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -120,7 +120,7 @@
           <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/_includes/header.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="24" selection-start="1253" selection-end="1253" vertical-scroll-proportion="-15.0">
+                <state line="17" column="21" selection-start="812" selection-end="812" vertical-scroll-proportion="-8.75">
                   <folding>
                     <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -131,8 +131,10 @@
           <file leaf-file-name="footer.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/_includes/footer.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="37" column="8" selection-start="1252" selection-end="1252" vertical-scroll-proportion="-9.333333">
-                  <folding />
+                <state line="20" column="9" selection-start="680" selection-end="680" vertical-scroll-proportion="-12.5">
+                  <folding>
+                    <marker date="1383378065000" expanded="true" signature="56:679" placeholder="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -140,7 +142,7 @@
           <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="95" column="13" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.51403886">
+                <state line="29" column="9" selection-start="402" selection-end="402" vertical-scroll-proportion="0.032397408">
                   <folding />
                 </state>
               </provider>
@@ -594,33 +596,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_site/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="2352" selection-end="2352" vertical-scroll-proportion="6.5416665">
+        <state line="45" column="0" selection-start="1950" selection-end="1950" vertical-scroll-proportion="6.5416665">
           <folding>
-            <marker date="1383313147000" expanded="true" signature="2072:2646" placeholder="..." />
+            <marker date="1383387838000" expanded="true" signature="2072:2646" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="1253" selection-end="1253" vertical-scroll-proportion="-15.0">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="40" selection-start="67" selection-end="67" vertical-scroll-proportion="-1.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="45" selection-start="146" selection-end="160" vertical-scroll-proportion="-5.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,21 +612,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="8" selection-start="1252" selection-end="1252" vertical-scroll-proportion="-9.333333">
+        <state line="20" column="9" selection-start="680" selection-end="680" vertical-scroll-proportion="-12.5">
+          <folding>
+            <marker date="1383378065000" expanded="true" signature="56:679" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="45" selection-start="146" selection-end="160" vertical-scroll-proportion="-5.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="40" selection-start="67" selection-end="67" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="21" selection-start="812" selection-end="812" vertical-scroll-proportion="-8.75">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="179" selection-end="179" vertical-scroll-proportion="-7.5">
+        <state line="24" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="-15.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="13" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.51403886">
+        <state line="29" column="9" selection-start="402" selection-end="402" vertical-scroll-proportion="0.032397408">
           <folding />
         </state>
       </provider>
