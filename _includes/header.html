@@ -7,6 +7,8 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!-- WebPerf optimizations -->
+  <meta http-equiv="Cache-control" content="public">
   <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
   <title>{{site.name}} - {{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,8 +18,9 @@
   <!-- Social icon set -->
   <link rel="stylesheet" href="/assets/webfonts/ss-social.css" type="text/css">
   <!-- Styles CSS -->
-  <link rel="stylesheet" href="/assets/css/knacss.css" media="all">
-  <link rel="stylesheet" href="/assets/css/styles.css" media="all">
+  <link rel="stylesheet" href="{% minified_css_file %}">
+  <!--<link rel="stylesheet" href="/assets/css/knacss.css" media="all">-->
+  <!--<link rel="stylesheet" href="/assets/css/styles.css" media="all">-->
   <!-- Font : "Open Sans" by Google -->
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400&subset=latin" rel="stylesheet" />
 
