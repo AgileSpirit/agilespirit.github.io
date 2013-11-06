@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e20a8d84-65b1-48fc-9cda-584ec45609aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CssMinify.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_plugins/compressor.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/CssMinify.yml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/jekyll/update/2013/06/30/A-post-with-a-very-very-long-name.html" afterPath="$PROJECT_DIR$/_site/jekyll/update/2013/06/30/A-post-with-a-very-very-long-name.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CssMinify.yml" afterPath="$PROJECT_DIR$/CssMinify.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about.html" afterPath="$PROJECT_DIR$/_site/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/blog/bonnes pratiques/2013/08/11/changement-de-decor-pourquoi-et-comment.html" afterPath="$PROJECT_DIR$/_site/blog/bonnes pratiques/2013/08/11/changement-de-decor-pourquoi-et-comment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/contact.html" afterPath="$PROJECT_DIR$/_site/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/bonnes pratiques/psychologie/2013/04/26/definition-de-mon-why.html" afterPath="$PROJECT_DIR$/_site/bonnes pratiques/psychologie/2013/04/26/definition-de-mon-why.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/test/2013/10/31/lorem-ipsum.html" afterPath="$PROJECT_DIR$/_site/test/2013/10/31/lorem-ipsum.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/rss.xml" afterPath="$PROJECT_DIR$/_site/rss.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/jekyll/update/2013/10/30/welcome-to-jekyll.html" afterPath="$PROJECT_DIR$/_site/jekyll/update/2013/10/30/welcome-to-jekyll.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -30,14 +29,15 @@
     <file path="/Gruntfile" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383389154826" ignored="false" />
     <file path="/2013-10-30-welcome-to-jekyll.markdown" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383394027543" ignored="false" />
     <file path="/2013-09-03-developpement-dune-application-java-web-moderne-introduction.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383393366478" ignored="false" />
-    <file path="/_config.yml" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383670402745" ignored="false" />
+    <file path="/_config.yml" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383748463814" ignored="false" />
     <file path="/navigation.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383401887598" ignored="false" />
     <file path="/about.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383401304053" ignored="false" />
     <file path="/contact.html" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383402008220" ignored="false" />
     <file path="/Gruntfile.js" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383668604807" ignored="false" />
     <file path="/package.json" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383666224022" ignored="false" />
     <file path="/README.md" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383667816234" ignored="false" />
-    <file path="/CssMinify.yml" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383746604682" ignored="false" />
+    <file path="/CssMinify.yml" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383747924660" ignored="false" />
+    <file path="$PROJECT_DIR$/_site/rss.xml" changelist="e20a8d84-65b1-48fc-9cda-584ec45609aa" time="1383749163143" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,7 @@
       <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="56" selection-start="978" selection-end="978" vertical-scroll-proportion="-12.416667">
+            <state line="20" column="51" selection-start="956" selection-end="973" vertical-scroll-proportion="-12.416667">
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -112,7 +112,7 @@
       <file leaf-file-name="CssMinify.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CssMinify.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="27" selection-start="91" selection-end="91" vertical-scroll-proportion="0.096618354">
+            <state line="1" column="18" selection-start="76" selection-end="76" vertical-scroll-proportion="0.024154589">
               <folding />
             </state>
           </provider>
@@ -121,7 +121,27 @@
       <file leaf-file-name="CssMinify.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_plugins/CssMinify.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="43" selection-start="1800" selection-end="1813" vertical-scroll-proportion="-7.6153846">
+            <state line="33" column="87" selection-start="1121" selection-end="1132" vertical-scroll-proportion="-13.423077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome-to-jekyll.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_site/jekyll/update/2013/10/30/welcome-to-jekyll.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="26" selection-start="3098" selection-end="3105" vertical-scroll-proportion="-0.625">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="59" selection-end="85" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
@@ -130,7 +150,7 @@
       <file leaf-file-name="_config.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+            <state line="4" column="13" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,17 +161,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="13" column="2" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="A-post-with-a-very-very-long-name.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_site/jekyll/update/2013/06/30/A-post-with-a-very-very-long-name.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="2970" selection-end="2970" vertical-scroll-proportion="-0.0">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -213,8 +222,8 @@
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/assets/css/styles.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_plugins/cssminify.rb" />
+        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/CssMinify.yml" />
       </list>
@@ -332,6 +341,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_plugins" />
+      <recent name="$PROJECT_DIR$/bak" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
@@ -544,13 +554,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="59" selection-end="85" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="163" column="16" selection-start="2463" selection-end="2463" vertical-scroll-proportion="0.37692308">
@@ -605,10 +608,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+        <state line="4" column="13" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="51" selection-start="956" selection-end="973" vertical-scroll-proportion="-12.416667">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -619,39 +636,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/jekyll/update/2013/06/30/A-post-with-a-very-very-long-name.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="2970" selection-end="2970" vertical-scroll-proportion="-0.0">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_plugins/CssMinify.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="43" selection-start="1800" selection-end="1813" vertical-scroll-proportion="-7.6153846">
+        <state line="33" column="87" selection-start="1121" selection-end="1132" vertical-scroll-proportion="-13.423077">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+    <entry file="file://$PROJECT_DIR$/_site/jekyll/update/2013/10/30/welcome-to-jekyll.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="56" selection-start="978" selection-end="978" vertical-scroll-proportion="-12.416667">
+        <state line="1" column="26" selection-start="3098" selection-end="3105" vertical-scroll-proportion="-0.625">
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="59" selection-end="85" vertical-scroll-proportion="-4.375">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CssMinify.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="27" selection-start="91" selection-end="91" vertical-scroll-proportion="0.096618354">
+        <state line="1" column="18" selection-start="76" selection-end="76" vertical-scroll-proportion="0.024154589">
           <folding />
         </state>
       </provider>

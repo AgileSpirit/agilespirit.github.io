@@ -1,5 +1,2 @@
-files: [
-  'assets/css/knacss.css',
-  'assets/css/styles.css'
-]
-css_destination: '/assets/css/'
+files: ['assets/css/knacss.css', 'assets/css/styles.css']
+css_destination: 'assets/css/'
