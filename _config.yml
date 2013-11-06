@@ -1,5 +1,0 @@
-name: Agile Spirit
-markdown: redcarpet
-pygments: true
-url: agilespirit.github.io
-exclude: ['bak','agilespirit.github.io.iml','README.md','CssMinify.yml']
