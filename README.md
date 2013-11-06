@@ -1,2 +1,0 @@
-agilespirit.github.io.sources
-=============================
