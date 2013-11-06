@@ -2,3 +2,4 @@ name: Agile Spirit
 markdown: redcarpet
 pygments: true
 url: agilespirit.github.io
+exclude: ['assets/css/*.css','node_modules','agilespirit.github.io.iml','Gruntfile.js','package.json','README.md','']
