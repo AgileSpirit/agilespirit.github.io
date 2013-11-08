@@ -120,7 +120,7 @@ body {
 /* Home page */
 /* --------- */
 
-#home .posts li {
+#home .posts .post {
   list-style-type: none;
   padding: 7px 5px;
   font-size: 1.2em;
@@ -128,18 +128,9 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-#home .posts li a {
+#home .posts .post a {
   color: #333;
   text-decoration: none;
-}
-#home .posts li span {
-  color: #999;
-  display: inline-block;
-  font-size: 0.8em;
-  padding-top: 3px;
-  padding-right: 10px;
-  text-align: right;
-  text-transform: uppercase;
 }
 
 /* --------- */
@@ -159,7 +150,16 @@ body {
 /* Responsive */
 /* ---------- */
 @media (min-width: 481px) {
-  /* smartphone */
+  /* desktop / tablet */
+  #home .posts .post span {
+    color: #999;
+    display: inline-block;
+    font-size: 0.8em;
+    padding-top: 3px;
+    padding-right: 10px;
+    text-align: right;
+    text-transform: uppercase;
+  }
 }
 
 @media (max-width: 480px) {
@@ -182,6 +182,9 @@ body {
     width: 100px;
   }
   #footer .wrapper .block div {
+    display: none;
+  }
+  #home .posts .post span {
     display: none;
   }
 
