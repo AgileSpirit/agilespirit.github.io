@@ -184,6 +184,10 @@ body {
   #footer .wrapper .block div {
     display: none;
   }
+  #home .posts {
+    padding-left: 0;
+    margin-left: 0;
+  }
   #home .posts .post span {
     display: none;
   }
