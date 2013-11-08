@@ -4,6 +4,8 @@ title:  "Welcome to Jekyll!"
 date:   2013-10-30 15:22:04
 categories: jekyll update
 published: true
+excerpt: In order for the highlighting to show up, you’ll need to include a highlighting stylesheet. For an example stylesheet you can look at syntax.css. These are the same styles as used by GitHub and you are free to use them for your own site. If you use linenos, you might want to include an additional CSS class definition for the .lineno class in syntax.css to distinguish the line numbers from the highlighted code.
+
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

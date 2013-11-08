@@ -4,6 +4,7 @@ title:  "Lorem ipsum dolor sit amet"
 date:   2013-10-31 00:56:00
 categories: test
 published: true
+excerpt: Sed si ille hac tam eximia fortuna propter utilitatem rei publicae frui non properat, ut omnia illa conficiat, quid ego, senator, facere debeo, quem, etiamsi ille aliud vellet, rei publicae consulere oporteret?
 ---
 
 Sed si ille hac tam eximia fortuna propter utilitatem rei publicae frui non properat, ut omnia illa conficiat, quid ego, senator, facere debeo, quem, etiamsi ille aliud vellet, rei publicae consulere oporteret?

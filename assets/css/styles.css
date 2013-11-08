@@ -17,6 +17,10 @@ body {
   color: #FFF;
   font-weight: 300;
 }
+#header .wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 #header h1.title {
   display: inline-block;
   font-size: 2em;
@@ -74,11 +78,13 @@ body {
 /* Main */
 /* ---- */
 
+#main {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 #main-wrapper {
   background-color: #FFF;
-}
-#main {
-  padding: 20px;
 }
 
 /* ------ */
@@ -120,17 +126,31 @@ body {
 /* Home page */
 /* --------- */
 
+#home .posts {
+  padding-left: 0;
+  margin-left: 0;
+}
+
 #home .posts .post {
   list-style-type: none;
-  padding: 7px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 1.2em;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  border-bottom: 1px dotted #CCC;
+}
+#home .posts .post:last-child {
+  border-bottom: none;
+}
+#home .posts .post .title {
+  font-weight: 300;
+  line-height: 1.5em;
 }
 #home .posts .post a {
-  color: #333;
+  color: #2ba6cb;
   text-decoration: none;
+}
+#home .posts .post a:hover {
+  color: #2795b6;
 }
 
 /* --------- */
@@ -184,12 +204,9 @@ body {
   #footer .wrapper .block div {
     display: none;
   }
-  #home .posts {
-    padding-left: 0;
-    margin-left: 0;
-  }
   #home .posts .post span {
     display: none;
   }
 
 }
+
