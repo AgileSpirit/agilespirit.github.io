@@ -8,6 +8,15 @@ body {
   background-color: #F6F6F6;
 }
 
+h1,h2,h3,h4,h5 {
+  font-weight: 300;
+}
+
+h2 {
+  line-height: 1.2em;
+  padding-bottom: 15px;
+}
+
 /* ------ */
 /* Header */
 /* ------ */
@@ -24,7 +33,6 @@ body {
 #header h1.title {
   display: inline-block;
   font-size: 2em;
-  font-weight: 300;
   border-right: 1px solid #FFF;
   padding-right: 18px;
   margin-right: 10px;
@@ -79,8 +87,11 @@ body {
 /* ---- */
 
 #main {
+  font-size: 1.2em;
+  padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 20px;
 }
 
 #main-wrapper {
@@ -122,54 +133,65 @@ body {
   font-size: 0.30em;
 }
 
-/* --------- */
-/* Home page */
-/* --------- */
+/* ---- */
+/* Page */
+/* ---- */
 
-#home .posts {
+.page {
+  margin-bottom: 15px;
+}
+
+/* ------------- */
+/* List of posts */
+/* ------------- */
+
+.posts {
   padding-left: 0;
   margin-left: 0;
 }
 
-#home .posts .post {
+.posts .post {
   list-style-type: none;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 1.2em;
   border-bottom: 1px dotted #CCC;
+  margin-bottom: 15px;
 }
-#home .posts .post:last-child {
+.posts .post:last-child {
   border-bottom: none;
 }
-#home .posts .post .title {
-  font-weight: 300;
-  line-height: 1.5em;
-  margin-bottom: 12px;
+/* ----------- */
+/* Single post */
+/* ----------- */
+
+.post {
+  padding-bottom: 5px;
 }
-#home .posts .post a {
+
+.post .title {}
+
+.post .meta {
+  color: #999;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.post .excerpt,
+.post .content,
+.post .comments {
+  padding: 15px 0;
+}
+
+.post a {
   color: #2ba6cb;
   text-decoration: none;
 }
-#home .posts .post a:hover {
+.post a:hover {
   color: #2795b6;
-}
-
-/* --------- */
-/* Post page */
-/* --------- */
-
-.post .content {
-  border-bottom: 1px solid #CCC;
-  padding: 15px 0;
-}
-
-.post .comments {
-  padding: 15px 0;
 }
 
 /* ---------- */
 /* Responsive */
 /* ---------- */
+
 @media (min-width: 481px) {
   /* desktop / tablet */
   #home .posts .post span {

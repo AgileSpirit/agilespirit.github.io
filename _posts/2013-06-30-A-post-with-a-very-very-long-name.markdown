@@ -3,6 +3,7 @@ layout: post
 title:  "This is a post with a very very very... very very long name in order to test CSS Ellipsis"
 date:   2013-06-30 15:22:04
 categories: jekyll update
+excerpt: Jekyll also offers powerful support for code snippets
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
