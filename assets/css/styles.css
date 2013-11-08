@@ -144,6 +144,7 @@ body {
 #home .posts .post .title {
   font-weight: 300;
   line-height: 1.5em;
+  margin-bottom: 12px;
 }
 #home .posts .post a {
   color: #2ba6cb;
