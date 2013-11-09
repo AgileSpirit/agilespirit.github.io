@@ -22,7 +22,7 @@ This is a default text
 
 `This is an inlined text`
 
-~~This is a strikethroughed text~~
+--This is a strikethroughed text--
 
 [This is a link](http://agilespirit.github.io)
 
@@ -62,6 +62,7 @@ public class Midfielder implements Player extends Infielder {
 
   public void shoot() {
     // Does some awesome stuff !
+    Logger.getLogger(Midfielder.class).info("Player shooted !");
   }
 }
 {% endhighlight %}

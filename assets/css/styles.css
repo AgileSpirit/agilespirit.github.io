@@ -17,6 +17,12 @@ h2 {
   padding-bottom: 15px;
 }
 
+blockquote {
+  border-left: 5px solid #2ba6cb;
+  padding: 5px 10px;
+  font-style: italic;
+}
+
 /* ------ */
 /* Header */
 /* ------ */
@@ -104,7 +110,7 @@ h2 {
 
 #footer {
   border-top: 1px solid #DDD;
-  padding: 20px 0;
+  padding-top: 20px;
 }
 #footer .wrapper {
   padding: 20px 0;
@@ -131,6 +137,20 @@ h2 {
 #footer .wrapper .block div {
   margin-top: 20px;
   font-size: 0.30em;
+}
+
+#footer-bottom {
+  background-color: #333;
+  color: #CCCCCC;
+  margin-bottom: 0;
+  padding: 15px 0;
+  font-size: 0.9em;
+}
+
+#footer-bottom a {
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
 }
 
 /* ---- */
