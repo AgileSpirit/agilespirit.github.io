@@ -48,12 +48,7 @@ Following is an ordered list (blank line is required) :
 1. item 2
 1. item 3
 
-Following is a task list :
-
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
+Following is an image : ![Jekyll movie]({{ site.url }}/assets/img/jekyll.jpeg)
 
 Following is a sample Java code snippet :
 
