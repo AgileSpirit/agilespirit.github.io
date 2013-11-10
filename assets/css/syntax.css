@@ -12,6 +12,7 @@
 }
 
 code, pre {
+  padding: 0;
   background: #FFFFFF;
   color: #000000;
   font-family: "Consolas", "Courier New", "Courier", "FreeMono", monospace;
@@ -22,9 +23,9 @@ code, pre {
 .highlight  { /*background: #272822;*/ color: #f8f8f2 }
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
-.highlight .k { color: dimgrey } /* Keyword */
+.highlight .k { color: darkorange } /* Keyword */
 .highlight .l { color: #ae81ff } /* Literal */
-.highlight .n { color: dimgrey } /* Name */
+.highlight .n { color: #333333 } /* Name */
 .highlight .o { color: dimgrey } /* Operator */
 .highlight .p { color: #f8f8f2 } /* Punctuation */
 .highlight .cm { color: #75715e } /* Comment.Multiline */
@@ -38,18 +39,18 @@ code, pre {
 .highlight .kn { color: #f92672 } /* Keyword.Namespace */
 .highlight .kp { color: #cd802b } /* Keyword.Pseudo */
 .highlight .kr { color: #cd802b } /* Keyword.Reserved */
-.highlight .kt { color: #cd802b } /* Keyword.Type */
+.highlight .kt { color: darkorange } /* Keyword.Type */
 .highlight .ld { color: #e6db74 } /* Literal.Date */
 .highlight .m { color: #ae81ff } /* Literal.Number */
 .highlight .s { color: green } /* Literal.String */
-.highlight .na { color: red } /* Name.Attribute */
+.highlight .na { color: #333333 } /* Name.Attribute */
 .highlight .nb { color: #f8f8f2 } /* Name.Builtin */
-.highlight .nc { color: red } /* Name.Class */
-.highlight .no { color: red } /* Name.Constant */
+.highlight .nc { color: #333333 } /* Name.Class */
+.highlight .no { color: #333333 } /* Name.Constant */
 .highlight .nd { color: #a6e22e } /* Name.Decorator */
 .highlight .ni { color: #f8f8f2 } /* Name.Entity */
-.highlight .ne { color: red } /* Name.Exception */
-.highlight .nf { color: red } /* Name.Function */
+.highlight .ne { color: #333333 } /* Name.Exception */
+.highlight .nf { color: #333333 } /* Name.Function */
 .highlight .nl { color: #f8f8f2 } /* Name.Label */
 .highlight .nn { color: #f8f8f2 } /* Name.Namespace */
 .highlight .nx { color: #a6e22e } /* Name.Other */

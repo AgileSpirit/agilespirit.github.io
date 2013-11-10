@@ -111,6 +111,7 @@ blockquote {
 #footer {
   border-top: 1px solid #DDD;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 #footer .wrapper {
   padding: 20px 0;

@@ -22,7 +22,7 @@ This is a default text
 
 `This is an inlined text`
 
---This is a strikethroughed text--
+~~This is a strikethroughed text~~
 
 [This is a link](http://agilespirit.github.io)
 
@@ -47,6 +47,13 @@ Following is an ordered list (blank line is required) :
 	1. subitem c
 1. item 2
 1. item 3
+
+Following is a task list :
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
 
 Following is a sample Java code snippet :
 
