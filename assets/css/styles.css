@@ -83,8 +83,8 @@ ul {
   text-decoration: none;
 }
 #header-top {
-  height: 5px;
-  background-color: #006582;
+  /*height: 5px;*/
+  background-color: #a00;
 }
 #header-middle {
   padding: 15px 0;
