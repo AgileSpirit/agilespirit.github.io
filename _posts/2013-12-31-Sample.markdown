@@ -4,6 +4,7 @@ title:  "Sample post"
 date:   2013-12-31 00:56:00
 published: true
 excerpt: This is a sample post
+disqus: true
 ---
 
 # Title H1
@@ -52,7 +53,7 @@ Following is an image : ![Jekyll movie](/assets/img/jekyll.jpeg )
 
 Following is a sample Java code snippet :
 
-{% highlight java linenos %}
+{% highlight java %}
 public class Midfielder implements Player extends Infielder {
 
   private final int number;

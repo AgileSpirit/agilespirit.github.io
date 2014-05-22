@@ -1,7 +1,7 @@
 .highlight  {
-  background: #FFFFFF;
+  background: #FAFAFA;
   color: #000000;
-  padding: 0.2em 0.9em;
+  padding: 0.5em 0.9em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   font: normal normal normal 115%/normal 'Monaco', 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace !important;
@@ -13,14 +13,14 @@
 
 code, pre {
   padding: 0;
-  background: #FFFFFF;
+  background: #FAFAFA;
   color: #000000;
   font-family: "Consolas", "Courier New", "Courier", "FreeMono", monospace;
   font-size:0.95em;
 }
 
 .highlight .hll { background-color: #ffffcc }
-.highlight  { background: #ffffff; }
+.highlight  { background: #FAFAFA; }
 .highlight .c { color: #008800; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { color: #000080; font-weight: bold } /* Keyword */
