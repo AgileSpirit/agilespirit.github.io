@@ -8,7 +8,6 @@ title: Agile Spirit
     {% for post in site.posts %}
       <li class="post">
         <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p class="meta">{{ post.date | date_to_string }}</p>
         <p class="excerpt">{{ post.excerpt }}</p>
       </li>
     {% endfor %}
