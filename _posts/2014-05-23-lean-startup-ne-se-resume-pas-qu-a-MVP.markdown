@@ -4,6 +4,7 @@ date:   2014-05-23 01:32:00
 title: Lean Startup ne se résume pas qu'au MVP
 tags: Lean Startup, MVP
 published: true
+disqus: true
 excerpt: De plus en plus d'entreprises françaises (dont certaines sont des institutions, avec ce que cela comporte de sous-entendus en terme d'administratif, de process ou autre culture / parc applicatif legacy) commencent à s'intéresser au Lean Startup. Si les méthodes agiles ont éveillé leur intérêt via une promesse d'excellente fonctionnelle (faire le bon produit) et opérationnelle (le faire bien), le Lean Startup les appâte par celle d'aller vite (réduction du Time-To-Market, Time-To-Fix ou Time-To-Deliver). Notamment, elles focalisent pour beaucoup - si ce n'est exclusivement - leur attention sur la notion de MVP (Minimum Viable Product), au détriment d'autres outils / concepts qui sont pourtant tout aussi essentiels dans la démarche.
 ---
 

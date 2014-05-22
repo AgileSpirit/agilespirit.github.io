@@ -16,6 +16,10 @@ p, ul, ol, dl, blockquote, pre, td, th, label, textarea, caption, details, figur
   font-size: 1em;
 }
 
+p:first-child {
+  margin-top: 0.5em;
+}
+
 h1 {
   margin-bottom: 20px;
   padding-bottom: 10px;
