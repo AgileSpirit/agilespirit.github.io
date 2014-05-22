@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Example of code snippets"
+published: false
 date:   2012-11-08 14:20:00
 excerpt: Java, en indonésien Jawa, Djawa jusqu'à la réforme orthographique de 1972, est une île d'Indonésie faisant partie de l'Insulinde, baignée au sud par l'océan Indien et au nord par la mer de Java et entourée par Sumatra au nord-ouest, Bali à l'est et Bornéo au nord.
 ---
