@@ -38,6 +38,10 @@ h3 {
   color: #2ba6cb;
 }
 
+h4 {
+  text-decoration: underline;
+}
+
 
 blockquote {
   border-left: 5px solid #2ba6cb;
