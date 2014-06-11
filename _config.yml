@@ -1,6 +1,8 @@
-name: Agile Spirit
+author: Jérémy Buget
+encoding: utf-8
+exclude: ['bak','agilespirit.github.io.iml','README.md','CssMinify.yml']
 markdown: redcarpet
+name: Agile Spirit
+paginate: 5
 pygments: true
 url: agilespirit.github.io
-exclude: ['bak','agilespirit.github.io.iml','README.md','CssMinify.yml']
-author: Jérémy Buget

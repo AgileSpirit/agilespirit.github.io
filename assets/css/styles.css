@@ -194,6 +194,22 @@ ul {
   margin-top: 0.5em;
 }
 
+.pager li>a {
+  border-radius: 0;
+  padding: 10px;
+  background-color: #2BA6CB;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 400;
+  border: 1px solid #2BA6CB;
+}
+
+.pager li>a:hover,
+.pager li>a:focus {
+  background-color: #2795b6;
+  border-color: #2795b6;
+}
+
 /* ----------- */
 /* Single post */
 /* ----------- */
