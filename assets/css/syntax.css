@@ -3,7 +3,7 @@
   color: #000000;
   padding: 0.5em 0.9em;
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1.5em;
   font: normal normal normal 115%/normal 'Monaco', 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace !important;
   line-height: 1.1em;
   overflow: auto;
@@ -66,3 +66,11 @@ code, pre {
 .highlight .s1 { color: #0000FF } /* Literal.String.Single */
 .highlight .ss { color: #0000FF } /* Literal.String.Symbol */
 .highlight .il { color: #0000FF } /* Literal.Number.Integer.Long */
+
+/**
+ * Twitter Bootstrap adjustments
+ */
+pre {
+  margin-bottom: 0;
+  border: none;
+}

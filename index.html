@@ -4,12 +4,29 @@ title: Agile Spirit
 ---
 
 <div id="home">
-  <ul class="posts">
+  <ul class="post-list">
     {% for post in site.posts %}
-      <li class="post">
-        <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p class="excerpt">{{ post.excerpt }}</p>
-      </li>
+    <li class="post-list-item post">
+
+      <!-- Title -->
+      <div class="post-title">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      </div>
+      
+      <!-- Meta data -->
+      <div class="post-meta">
+        {% if site.author %}
+        <span class="glyphicon glyphicon-user"></span><span class="post-meta-data">{{ site.author }}</span>
+        {% endif %}
+        {% if post.date %}
+        <span class="glyphicon glyphicon-time"></span><span class="post-meta-data">{{ post.date | date: "%d-%m-%Y" }}</span>
+        {% endif %}
+      </div>
+
+      <div class="post-content">
+        <p class="post-excerpt">{{ post.excerpt }}</p>
+      </div>
+    </li>
     {% endfor %}
   </ul>
 </div>

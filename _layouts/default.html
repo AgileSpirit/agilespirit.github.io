@@ -16,21 +16,23 @@
   <!-- Social icon set -->
   <link rel="stylesheet" href="/assets/fonts/ss-social.css" type="text/css">
   <!-- Styles CSS -->
-  <link rel="stylesheet" media="all" href="/assets/css/knacss.min.css">
+<!--  <link rel="stylesheet" media="all" href="/assets/css/knacss.min.css">-->
+  <link rel="stylesheet" media="all" href="/assets/css/bootstrap.min.css">
   <link rel="stylesheet" media="all" href="/assets/css/styles.css">
   <link rel="stylesheet" media="all" href="/assets/css/syntax.css">
   <!-- Font : "Open Sans" by Google -->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
 </head>
-<body id="body">
+<body>
 
 {% include header.html %}
 
-<div id="main-wrapper">
-  <section id="main" role="main" class="w800p center">
+
+<div id="body">
+  <div class="container">
     {{content}}
-  </section>
+  </div>
 </div>
 
 {% include footer.html %}
