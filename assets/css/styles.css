@@ -84,7 +84,7 @@ ul {
 #header h1.title {
   display: inline-block;
   font-size: 2em;
-  border-right: 1px solid #FFF;
+  border-right: 2px solid #FFF;
   padding-right: 18px;
   margin-right: 10px;
   padding-bottom: 0;
@@ -93,14 +93,37 @@ ul {
   margin-bottom: 0;
 }
 #header small {
-  vertical-align: super;
-  font-size: 1em;
+  vertical-align: text-bottom;
+  font-size: 1.25em;
 }
 
 #header a {
   color: #FFF;
   text-decoration: none;
 }
+
+/* ------ */
+/* Social */
+/* ------ */
+
+.ss-link {
+  display: inline-block;
+  background-color: #2795b6;
+  padding: 10px 10px 5px 10px;
+  margin: auto 5px;
+  font-size: 1.25em;
+  border-radius: 50%;
+  transition: background-color 0.25s linear;
+  -moz-transition: background-color 0.25s linear;    /* FF3.7+ */
+  -o-transition: background-color 0.25s linear;      /* Opera 10.5 */
+  -webkit-transition: background-color 0.25s linear; /* Saf3.2+, Chrome */
+}
+
+.ss-link:hover,
+.ss-link:focus {
+  background-color: #006582;
+}
+
 
 /* ------ */
 /* Footer */
@@ -125,6 +148,30 @@ ul {
   margin-bottom: 15px;
 }
 
+/* ---------- */
+/* Pagination */
+/* ---------- */
+
+.pager li>a {
+  border-radius: 0;
+  padding: 10px;
+  background-color: #2BA6CB;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 400;
+  border: 1px solid #2BA6CB;
+  transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;    /* FF3.7+ */
+  -o-transition: background-color 0.3s linear;      /* Opera 10.5 */
+  -webkit-transition: background-color 0.3s linear; /* Saf3.2+, Chrome */
+}
+
+.pager li>a:hover,
+.pager li>a:focus {
+  background-color: #2795b6;
+  border-color: #2795b6;
+}
+
 /* ------------------------ */
 /* Common 'post' properties */
 /* ------------------------ */
@@ -141,25 +188,15 @@ ul {
 .post-meta-data {
   margin-left: 6px;
   margin-right: 15px;
+  vertical-align: text-bottom;
+}
+
+.post-excerpt {
+  margin-bottom: 0.8em;
 }
 
 .post .title {
   margin-bottom: 0;
-}
-
-.post .meta {
-  color: #CACACA;
-  margin-top: 0;
-  margin-bottom: 0;
-  border-top: 1px solid #F1F1F1;
-  border-bottom: 1px solid #F1F1F1;
-  padding: 0.875em 0;
-}
-
-.post .excerpt,
-.post .content,
-.post .comments {
-  padding: 0.35em 0 0.875em;
 }
 
 .post a {
@@ -194,22 +231,6 @@ ul {
   margin-top: 0.5em;
 }
 
-.pager li>a {
-  border-radius: 0;
-  padding: 10px;
-  background-color: #2BA6CB;
-  color: #FFF;
-  text-decoration: none;
-  font-weight: 400;
-  border: 1px solid #2BA6CB;
-}
-
-.pager li>a:hover,
-.pager li>a:focus {
-  background-color: #2795b6;
-  border-color: #2795b6;
-}
-
 /* ----------- */
 /* Single post */
 /* ----------- */
@@ -231,7 +252,6 @@ ul {
 /* --------------- */
 
 .comments {
-  border-top: 1px solid #006582;
   margin-top: 2em;
   padding-top: 1em;
 }
@@ -259,26 +279,13 @@ ul {
   #github-ribbon {
     display: none;
   }
-  #header-bottom {
-    display: none;
-  }
   #header h1.title {
     border: none;
     margin: 0;
     padding: 0;
   }
-  #header .subtitle {
+  #social {
     display: none;
   }
-  #footer .wrapper .block {
-    width: 100px;
-  }
-  #footer .wrapper .block div {
-    display: none;
-  }
-  #home .posts .post span {
-    display: none;
-  }
-
 }
 
