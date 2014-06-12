@@ -1,3 +1,7 @@
+/**
+ * http://colorschemedesigner.com/#0011Tw0w0w0w0
+ */
+
 /* ------- */
 /* General */
 /* ------- */
@@ -109,6 +113,8 @@ ul {
 .ss-link {
   display: inline-block;
   background-color: #2795b6;
+  background-color: #3E8498;
+  background-color: #5EC7E5;
   padding: 10px 10px 5px 10px;
   margin: auto 5px;
   font-size: 1.25em;
@@ -122,6 +128,7 @@ ul {
 .ss-link:hover,
 .ss-link:focus {
   background-color: #006582;
+  background-color: #0E6A84;
 }
 
 
@@ -155,11 +162,11 @@ ul {
 .pager li>a {
   border-radius: 0;
   padding: 10px;
-  background-color: #2BA6CB;
+  background-color: #5EC7E5;
   color: #FFF;
   text-decoration: none;
   font-weight: 400;
-  border: 1px solid #2BA6CB;
+  border: 1px solid #5EC7E5;
   transition: background-color 0.3s linear;
   -moz-transition: background-color 0.3s linear;    /* FF3.7+ */
   -o-transition: background-color 0.3s linear;      /* Opera 10.5 */
