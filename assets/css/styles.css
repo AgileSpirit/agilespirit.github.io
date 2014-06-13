@@ -127,9 +127,11 @@ ul {
 }
 
 .ss-rss:hover, .ss-rss:focus { background-color: #F90; }
+/*
 .ss-linkedin:hover, .ss-linkedin:focus { background-color: #0077B5; }
 .ss-twitter:hover, .ss-twitter:focus { background-color: #00aced; }
 .ss-octocat:hover, .ss-octocat:focus { background-color: #333; }
+*/
 
 
 /* ------ */
