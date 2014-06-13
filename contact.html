@@ -5,10 +5,28 @@ title: Contact
 
 <form role="form">
   
-  <input name="username" placeholder="Nom complet"/>
-  <input name="email" placeholder="Email"/>
-  <input name="title" placeholder="Titre"/>
-  <textarea name="content" placeholder="Contenu"></textarea>
-  <button type="submit">Envoyer</button>
+  <div class="form-group">
+    <div class="col-sm-6">
+      <label class="sr-only" for="username">Nom</label>
+      <input type="text" name="username" placeholder="Nom" class="form-control"/>
+    </div>
+    <div class="col-sm-6">
+      <label class="sr-only" for="email">Email</label>
+      <input type="email" name="email" placeholder="Email" class="form-control"/>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-12">
+      <label class="sr-only" for="title">Titre</label>
+      <input name="title" placeholder="Titre" class="form-control"/>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-12">
+      <label class="sr-only" for="message">Message</label>
+      <textarea name="message" placeholder="Message" class="form-control"></textarea>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-default">Envoyer</button>
 </form>
 

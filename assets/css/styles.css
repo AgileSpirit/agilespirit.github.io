@@ -81,11 +81,7 @@ ul {
   padding: 30px 0;
 }
 
-#header .wrapper {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-#header h1.title {
+#header .title > h1 {
   display: inline-block;
   font-size: 2em;
   border-right: 2px solid #FFF;
@@ -96,7 +92,7 @@ ul {
   margin-top: 0px;
   margin-bottom: 0;
 }
-#header small {
+#header .title > small {
   vertical-align: text-bottom;
   font-size: 1.25em;
 }
@@ -177,6 +173,14 @@ ul {
 .pager li>a:focus {
   background-color: #2795b6;
   border-color: #2795b6;
+}
+
+/* ---- */
+/* Form */
+/* ---- */
+
+.form-control {
+  border-radius: 0;
 }
 
 /* ------------------------ */
@@ -286,12 +290,12 @@ ul {
   #github-ribbon {
     display: none;
   }
-  #header h1.title {
+  #header .title > h1 {
     border: none;
     margin: 0;
     padding: 0;
   }
-  #social {
+  #header .social {
     display: none;
   }
 }
