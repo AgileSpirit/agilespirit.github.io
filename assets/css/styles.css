@@ -81,22 +81,18 @@ ul {
   padding: 30px 0;
 }
 
-#header .wrapper {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-#header h1.title {
+#header .title > h1 {
   display: inline-block;
   font-size: 2em;
   border-right: 2px solid #FFF;
   padding-right: 18px;
   margin-right: 10px;
-  padding-bottom: 0;
+  padding-bottom: 5px;
   border-bottom: 0;
   margin-top: 0px;
   margin-bottom: 0;
 }
-#header small {
+#header .title > small {
   vertical-align: text-bottom;
   font-size: 1.25em;
 }
@@ -115,7 +111,7 @@ ul {
   background-color: #2795b6;
   background-color: #3E8498;
   background-color: #5EC7E5;
-  padding: 10px 10px 5px 10px;
+  padding: 10px 11px 5px;
   margin: auto 5px;
   font-size: 1.25em;
   border-radius: 50%;
@@ -127,9 +123,13 @@ ul {
 
 .ss-link:hover,
 .ss-link:focus {
-  background-color: #006582;
   background-color: #0E6A84;
 }
+
+.ss-rss:hover, .ss-rss:focus { background-color: #F90; }
+.ss-linkedin:hover, .ss-linkedin:focus { background-color: #0077B5; }
+.ss-twitter:hover, .ss-twitter:focus { background-color: #00aced; }
+.ss-octocat:hover, .ss-octocat:focus { background-color: #333; }
 
 
 /* ------ */
@@ -177,6 +177,14 @@ ul {
 .pager li>a:focus {
   background-color: #2795b6;
   border-color: #2795b6;
+}
+
+/* ---- */
+/* Form */
+/* ---- */
+
+.form-control {
+  border-radius: 0;
 }
 
 /* ------------------------ */
@@ -286,12 +294,12 @@ ul {
   #github-ribbon {
     display: none;
   }
-  #header h1.title {
+  #header .title > h1 {
     border: none;
     margin: 0;
     padding: 0;
   }
-  #social {
+  #header .social {
     display: none;
   }
 }

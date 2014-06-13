@@ -1,8 +1,9 @@
 author: Jérémy Buget
+description: UX, dev & Agilité
 encoding: utf-8
 exclude: ['bak','agilespirit.github.io.iml','README.md','CssMinify.yml']
 markdown: redcarpet
 name: Agile Spirit
 paginate: 5
 pygments: true
-url: agilespirit.github.io
+url: http://agilespirit.github.io
