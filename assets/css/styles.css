@@ -83,6 +83,7 @@ ul {
 
 #header {
     background-color: #2ba6cb;
+    background-color: #074e68;
     color: #FFF;
     font-weight: 300;
     padding: 30px 0;
@@ -123,6 +124,7 @@ ul {
     background-color: #2795b6;
     background-color: #3E8498;
     background-color: #5EC7E5;
+    background-color: #085a78;
     padding: 10px 11px 5px;
     margin: auto 5px;
     font-size: 1.25em;
@@ -138,6 +140,7 @@ ul {
 .ss-link:hover,
 .ss-link:focus {
     background-color: #0E6A84;
+    background-color: #008cba;
 }
 .ss-rss:hover,
 .ss-rss:focus {
